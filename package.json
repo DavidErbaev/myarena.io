@@ -1,0 +1,19 @@
+{
+  "name": "myarena.io",
+  "version": "1.0.0",
+  "description": "A module created for CS: GO servers that are rented on MyArena",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidErbaev/myarena.io.git"
+  },
+  "keywords": [
+    "myarena-api"
+  ],
+  "author": "David Volkov (VK: https://vk.com/id500580851)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidErbaev/myarena.io/issues"
+  },
+  "homepage": "https://github.com/DavidErbaev/myarena.io#readme"
+}
