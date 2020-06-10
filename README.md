@@ -13,9 +13,7 @@ npm i myarena.io
 ```js
 const { MyArena } = require('myarena.io')
 const server = new MyArena({
-    apiId: process.env.API_ID,
-    secretKey: process.env.SECRET_KEY,
-    apiKey: process.env.API_KEY
+    token: process.ENV.TOKEN
 })
 
 (async () => {
