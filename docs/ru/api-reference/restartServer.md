@@ -9,7 +9,7 @@ var server = new MyArena({
 })
 ```
 
-Узнаем статистику сервера
+Перезапуск сервера
 
 ```js
 await server.csgo.restartServer() // => Promise<Object>

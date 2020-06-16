@@ -9,7 +9,7 @@ var server = new MyArena({
 })
 ```
 
-Узнаем статистику сервера
+Выключение сервера
 
 ```js
 await server.csgo.stopServer() // => Promise<Object>

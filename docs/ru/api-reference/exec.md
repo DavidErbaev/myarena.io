@@ -9,17 +9,15 @@ var server = new MyArena({
 })
 ```
 
-Смена карты сервера
+Выполнить консольную команду
 
 ```js
-await server.csgo.changeMap({
-    name: 'awp_lego_2'
-}) // => Promise<Object>
+await server.csgo.exec({ cmd: 'exec cw.cfg' }) // => Promise<Object>
 ```
 
 | Параметр | Тип | Описание |
 |------------------|-------|------------------|
-| name | string | Название карты из списка карт сервера |
+| cmd | string | Консольная команда |
 
 Возвращает следующие свойства
 
@@ -30,4 +28,4 @@ await server.csgo.changeMap({
 
 Скриншот
 
-![alt tag](https://raw.githubusercontent.com/DavidErbaev/myarena.io/master/docs/ru/api-reference/imgs/changeMap.png "Скриншот с объектами")
+![alt tag](https://raw.githubusercontent.com/DavidErbaev/myarena.io/master/docs/ru/api-reference/imgs/exec.png "Скриншот с объектами")

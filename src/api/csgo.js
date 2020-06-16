@@ -100,11 +100,13 @@ class CSGO {
      * Run console command
      * @param {*} cmd 
      */
-    exec(cmd) {
+    exec(params = {}) {
+        if (!params.cmd) throw new APIError('Invalid cmd')
+        
         return this.call({
             query: "consolecmd",
             params: {
-                cmd: cmd,
+                cmd: params.cmd,
                 token: this.options.csgo.token
             }
         })

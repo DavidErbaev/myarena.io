@@ -9,7 +9,7 @@ var server = new MyArena({
 })
 ```
 
-Узнаем статистику сервера
+Запуск сервера
 
 ```js
 await server.csgo.startServer() // => Promise<Object>
