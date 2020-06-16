@@ -21,3 +21,7 @@ await server.csgo.stopServer() // => Promise<Object>
 |----------|-----|----------|
 | status | string | Выводит статус выключения |
 | message | object | Выводит сообщение о выключении |
+
+Скриншот
+
+![alt tag](https://raw.githubusercontent.com/DavidErbaev/myarena.io/master/docs/ru/api-reference/imgs/stopServer.png "Скриншот с объектами")
