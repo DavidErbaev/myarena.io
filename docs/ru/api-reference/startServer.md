@@ -21,3 +21,7 @@ await server.csgo.startServer() // => Promise<Object>
 |----------|-----|----------|
 | status | string | Выводит статус запуска |
 | message | object | Выводит сообщение о запуске |
+
+Скриншот
+
+![alt tag](https://raw.githubusercontent.com/DavidErbaev/myarena.io/master/docs/ru/api-reference/imgs/startServer.png "Скриншот с объектами")
