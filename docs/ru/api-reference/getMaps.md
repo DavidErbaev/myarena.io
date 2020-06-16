@@ -24,4 +24,4 @@ await server.csgo.getMaps() // => Promise<Object>
 
 Скриншот
 
-![alt tag](https://raw.githubusercontent.com/DavidErbaev/myarena.io/master/docs/ru/api-reference/imgs/getMaps.jpg "Скриншот с объектами")
+![alt tag](https://raw.githubusercontent.com/DavidErbaev/myarena.io/master/docs/ru/api-reference/imgs/getMaps.png "Скриншот с объектами")
