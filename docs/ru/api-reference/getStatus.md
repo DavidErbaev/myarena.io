@@ -22,5 +22,7 @@ await server.csgo.getStatus() // => Promise<Object>
 | status | string | Выводит статус проверки |
 | data | object | Выводит объект с данными |
 
+Скриншот
+
 ![alt tag](https://raw.githubusercontent.com/DavidErbaev/myarena.io/master/docs/ru/api-reference/imgs/getStatus.jpg "Скриншот с объектами")
 ​
