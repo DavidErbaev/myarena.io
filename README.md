@@ -24,7 +24,7 @@ const server = new MyArena({
 (async () => {
      let getMaps = await server.csgo.getMaps()
 
-     console.log(balance)
+     console.log(getMaps)
 })
 ```
 
