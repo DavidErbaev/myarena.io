@@ -2,7 +2,7 @@
 
 ## Description
 
->[EN] A module created for servers that are rented on MyArena.ru
+>[EN] A module created for servers that are rented on MyArena.ru<br/>
 >[RU] Модуль создан для серверов, которые арендуются на MyArena.ru
 
 ## Installation
