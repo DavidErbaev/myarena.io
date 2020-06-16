@@ -25,4 +25,3 @@ await server.csgo.getStatus() // => Promise<Object>
 Скриншот
 
 ![alt tag](https://raw.githubusercontent.com/DavidErbaev/myarena.io/master/docs/ru/api-reference/imgs/getStatus.jpg "Скриншот с объектами")
-​
