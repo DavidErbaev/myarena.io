@@ -9,4 +9,8 @@
     * [changeMap](api-reference/changeMap.md)
     * [getMaps](api-reference/getMaps.md)
     * [exec](api-reference/exec.md)
+<<<<<<< HEAD
     * [getResources](api-reference/getResources.md)
+=======
+    * [getResources](api-reference/getResources.md)
+>>>>>>> da1d3adf6ee221d4db7554aa4a3b255c2cec6443
