@@ -18,7 +18,9 @@ class MyArena {
             this.agent = null;
         }
 
-        this.csgo = new CSGO(this);
+        if (this.options.csgo) {
+            this.csgo = new CSGO(this);
+        }
     }
    
     setOptions(options) {
