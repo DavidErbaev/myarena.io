@@ -13,7 +13,9 @@ npm i myarena.io
 ```js
 const { MyArena } = require('myarena.io')
 const server = new MyArena({
-    token: process.ENV.TOKEN
+    csgo: { 
+        token: process.ENV.TOKEN
+    }
 })
 
 (async () => {
