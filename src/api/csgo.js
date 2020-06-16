@@ -13,7 +13,7 @@ class CSGO {
         this.agent = this.csgo.agent;
         this.options = this.csgo.options;
 
-        if (!this.options.token) {
+        if (!this.options.csgo.token) {
             throw new APIError('Invalid token')
         }
     }
@@ -25,7 +25,7 @@ class CSGO {
         return this.call({
             query: "status",
             params: {
-                token: this.options.token
+                token: this.options.csgo.token
             }
         })
     }
@@ -37,7 +37,7 @@ class CSGO {
         return this.call({
             query: "start",
             params: {
-                token: this.options.token
+                token: this.options.csgo.token
             }
         })
     }
@@ -49,7 +49,7 @@ class CSGO {
         return this.call({
             query: "stop",
             params: {
-                token: this.options.token
+                token: this.options.csgo.token
             }
         })
     }
@@ -61,7 +61,7 @@ class CSGO {
         return this.call({
             query: "restart",
             params: {
-                token: this.options.token
+                token: this.options.csgo.token
             }
         })
     }
@@ -80,7 +80,7 @@ class CSGO {
             query: "changelevel",
             params: {
                 map: params.name,
-                token: this.options.token
+                token: this.options.csgo.token
             }
         })
     }
@@ -92,7 +92,7 @@ class CSGO {
         return this.call({
             query: "getmaps",
             params: {
-                token: this.options.token
+                token: this.options.csgo.token
             }
         })
     }
@@ -105,7 +105,7 @@ class CSGO {
             query: "consolecmd",
             params: {
                 cmd: cmd,
-                token: this.options.token
+                token: this.options.csgo.token
             }
         })
     }
@@ -116,7 +116,7 @@ class CSGO {
         return this.call({
             query: "getresources",
             params: {
-                token: this.options.token
+                token: this.options.csgo.token
             }
         })
     }
